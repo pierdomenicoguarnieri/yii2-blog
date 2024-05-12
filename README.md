@@ -3,9 +3,6 @@
 </p>
 
 This is my first ever project using Yii2, i'm currentlly learning how to use this framework. I hope to have fun with it and learn something new along the way!
-<p align="center">
-    <br>
-</p>
 
 <p align="center">
     <a href="https://github.com/yiisoft" target="_blank">

@@ -9,6 +9,7 @@ use yii\web\Response;
 use yii\filters\VerbFilter;
 use app\models\LoginForm;
 use app\models\ContactForm;
+use app\models\SingupForm;
 
 class SiteController extends Controller
 {
@@ -84,6 +85,16 @@ class SiteController extends Controller
         return $this->render('login', [
             'model' => $model,
         ]);
+    }
+
+    public function actionSingup(){
+        $model = new SingupForm();
+        
+        if($model->load(Yii::$app->request->post()) && $model->singup()){
+            $this->redirect(Yii::$app->homeUrl);
+        }
+
+        return $this->render('singup', ['model' => $model]);
     }
 
     /**
