@@ -1,4 +1,12 @@
 <p align="center">
+    <h1 align="center">Custom Readme</h1>
+</p>
+
+This is my first ever project using Yii2, i'm currentlly learning how to use this framework. I hope to have fun with it and learn something new along the way!
+
+<br>
+
+<p align="center">
     <a href="https://github.com/yiisoft" target="_blank">
         <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
     </a>
